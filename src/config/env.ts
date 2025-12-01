@@ -9,5 +9,4 @@ export const config = {
     process.env.MONGO_URI || "mongodb://localhost:27017/employee-management",
   jwtSecret: process.env.JWT_SECRET || "supersecretkey",
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || "1d",
-  env: process.env.NODE_ENV || "development",
 };
